@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
-import Graph from "./Graph";
-import logo from './logo.svg';
+import ChartHeader from './ChartHeader';
+import houzz from './houzz.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App App-bg">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src={houzz} className="App-logo" alt="logo" />
+          <h1 className="App-title">Campaign Analytics</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <code>1st line chages symbol</code>
         </p>
-        <Graph />
+        <p className="App-intro">
+          <code>2nd line chages duration</code>
+        </p>
+        <ChartHeader />
       </div>
     );
   }

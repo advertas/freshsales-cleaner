@@ -6,6 +6,9 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.App-bg{
+  background-color: rgba(204, 204, 204, 0.5);
+}
 
 .App-header {
   background-color: #222;
@@ -30,6 +33,22 @@
 
 .columns {
   column-count: 2;
+}
+
+.ActiveButton {
+  border-radius: 24px;
+    padding: 0px 10px;
+    height: 42px;
+    min-width: 72px;
+    background-color: #4dbc15;
+    border: 0px;
+}
+.NormalButton {
+    padding: 0px 10px;
+    height: 42px;
+    min-width: 72px;
+    background-color: rgba(204, 204, 204, 0.25);
+    border: 0px;
 }
 
 @keyframes App-logo-spin {
